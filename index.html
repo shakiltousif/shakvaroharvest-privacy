@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>ShakvaroHarvest Privacy Policy</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="Privacy policy for the ShakvaroHarvest Chrome extension." />
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+    line-height: 1.6;
+    color: #1f2937;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e5e7eb; background: #0b0d12; }
+    a { color: #7dd3fc; }
+    .highlight { background: #102138; border-color: #1e3a5f; color: #cfe3ff; }
+    footer { border-top-color: #1f2937; }
+  }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 32px; }
+  .logo {
+    width: 48px; height: 48px; border-radius: 14px;
+    background: linear-gradient(135deg, #22c55e, #0ea5e9);
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-weight: 800; font-size: 18px;
+    letter-spacing: -0.5px;
+  }
+  h1 { font-size: 30px; letter-spacing: -0.02em; margin: 0 0 2px; }
+  .updated { color: #6b7280; font-size: 14px; margin: 0 0 32px; }
+  h2 { font-size: 20px; margin-top: 40px; letter-spacing: -0.01em; }
+  a { color: #0284c7; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 0.95em; }
+  .highlight {
+    background: #ecfeff;
+    border: 1px solid #bae6fd;
+    color: #0c4a6e;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin: 20px 0 28px;
+  }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 13px;
+    color: #6b7280;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">SH</div>
+  <div>
+    <h1>ShakvaroHarvest</h1>
+    <div class="updated">Privacy Policy</div>
+  </div>
+</header>
+
+<p class="updated">Last updated: April 26, 2026</p>
+
+<div class="highlight">
+  <strong>Short version:</strong> ShakvaroHarvest extracts business information from Google Maps only when you use the extension. Extracted rows are stored locally in your browser unless you choose to export them to a CSV/XLSX file or send them to your own Google Sheet. We do not sell personal information or use extracted place data for advertising.
+</div>
+
+<h2>1. What the extension does</h2>
+<p>
+  ShakvaroHarvest is a Chrome extension that helps users collect public business information from Google Maps pages and export that information to CSV, XLSX, or Google Sheets.
+</p>
+
+<h2>2. Data the extension accesses</h2>
+<p>
+  When you use ShakvaroHarvest on Google Maps, the extension may read business information visible on the page, including:
+</p>
+<ul>
+  <li>Business name, category, address, phone number, website, rating, review count, price level, hours, plus code, latitude/longitude, and Google Maps URL.</li>
+  <li>The Google Maps search query or place page URL associated with the extracted result.</li>
+  <li>Extension settings such as default extraction quality, throttle timing, side panel preference, and telemetry opt-in choice.</li>
+  <li>Folders or session lists you create inside the extension.</li>
+</ul>
+
+<h2>3. Where your data is stored</h2>
+<p>
+  Extracted records, folders, settings, license status, quota information, and temporary selector-drift reports are stored locally in Chrome extension storage on your device.
+</p>
+<p>
+  If you export to CSV or XLSX, the file is downloaded by your browser to the location you choose. If you export to Google Sheets, selected rows are sent to the Google Sheet you choose using your own Google account authorization.
+</p>
+
+<h2>4. Google account and Google Sheets</h2>
+<p>
+  Google Sheets export is optional. If you use it, Chrome may ask you to authorize access through your Google account. The extension uses this authorization only to list spreadsheets, create a spreadsheet if requested, and append the rows you choose to export.
+</p>
+<p>
+  ShakvaroHarvest does not receive your Google password and does not use your Google data for advertising or profiling.
+</p>
+
+<h2>5. License validation</h2>
+<p>
+  If you activate a paid license, the extension sends the license key, an extension install identifier, and the extension version to Shakvaro servers to validate the license. This is used only to confirm license status and enable paid features.
+</p>
+
+<h2>6. Optional telemetry</h2>
+<p>
+  ShakvaroHarvest includes optional selector-drift telemetry. If you enable telemetry in settings, the extension may send reports when expected Google Maps fields fail to extract. These reports include the missing field name, the related URL, the extension version, and an install identifier.
+</p>
+<p>
+  Telemetry is disabled unless you opt in. Extracted place rows are not sent as telemetry.
+</p>
+
+<h2>7. Data the extension does not collect</h2>
+<p>
+  ShakvaroHarvest does not collect, sell, or share the following for advertising or tracking:
+</p>
+<ul>
+  <li>Passwords or authentication credentials.</li>
+  <li>Payment card numbers or financial account information.</li>
+  <li>Health information.</li>
+  <li>Personal communications.</li>
+  <li>Browsing history outside the Google Maps pages where the extension runs.</li>
+  <li>Extracted business rows, except when you explicitly export them to your own Google Sheet.</li>
+</ul>
+
+<h2>8. Third parties</h2>
+<p>
+  The extension interacts with these services only for the described purposes:
+</p>
+<ul>
+  <li><strong>Google Maps:</strong> the extension reads visible page content on Google Maps pages where it is installed.</li>
+  <li><strong>Google Sheets / Google Drive APIs:</strong> optional export to spreadsheets selected by you.</li>
+  <li><strong>Shakvaro license server:</strong> paid license validation.</li>
+  <li><strong>Shakvaro telemetry endpoint:</strong> optional selector-drift reports if you opt in.</li>
+</ul>
+
+<h2>9. Permissions</h2>
+<p>
+  ShakvaroHarvest requests Chrome permissions needed for its core functionality:
+</p>
+<ul>
+  <li><code>storage</code> to save extracted sessions, folders, settings, license status, and telemetry preference locally.</li>
+  <li><code>activeTab</code>, <code>tabs</code>, and <code>scripting</code> to communicate with the current Google Maps tab.</li>
+  <li><code>identity</code> to support optional Google Sheets export through Chrome's OAuth flow.</li>
+  <li><code>alarms</code> to periodically refresh license status and optional telemetry upload.</li>
+  <li><code>sidePanel</code> to show the extension UI in Chrome's side panel.</li>
+  <li><code>contextMenus</code> to provide extension actions from Chrome's right-click menu.</li>
+  <li>Host permissions for Google Maps and Google APIs so the extension can extract Maps data and export to Google Sheets.</li>
+</ul>
+
+<h2>10. Your control</h2>
+<p>
+  You can clear extracted session data inside the extension. You can also remove all extension data by uninstalling ShakvaroHarvest or clearing Chrome extension storage. You control whether to export any data and whether to enable telemetry.
+</p>
+
+<h2>11. Children's privacy</h2>
+<p>
+  ShakvaroHarvest is a business productivity tool and is not directed to children under 13. The extension does not knowingly collect information from children.
+</p>
+
+<h2>12. Changes to this policy</h2>
+<p>
+  If the extension's data handling changes, this policy will be updated and the "Last updated" date will be revised.
+</p>
+
+<h2>13. Contact</h2>
+<p>
+  Questions about this policy? Open an issue on the project repository:
+  <a href="https://github.com/shakiltousif/shakvaroharvest-extension/issues">github.com/shakiltousif/shakvaroharvest-extension/issues</a>.
+</p>
+
+<footer>
+  &copy; 2026 ShakvaroHarvest
+</footer>
+
+</body>
+</html>
