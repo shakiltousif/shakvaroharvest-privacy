@@ -1,5 +1,5 @@
-# ShakvaroHarvest Privacy Policy
+# Shakvaro Sidekick Privacy Policy
 
-Privacy policy for the [ShakvaroHarvest](https://github.com/shakiltousif/shakvaroharvest-extension) Chrome extension.
+Privacy policy for the Shakvaro Sidekick Chrome extension.
 
 Published at: https://shakiltousif.github.io/shakvaroharvest-privacy/
